@@ -1,6 +1,8 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  font: 20px "Century Gothic", Futura, sans-serif;
+  margin-top: 6.5%;
+  margin-left: 30%;
+  height:fit-content;
 }
 
 ol, ul {
@@ -13,31 +15,62 @@ ol, ul {
   display: table;
 }
 
+.button {
+  background-color: rgb(198, 231, 253);
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: list-item;
+  font-size: 20px;
+  width: 200px;
+}
+
+.button:hover {
+  background: rgb(3, 133, 219);
+}
+
+.button:focus {
+  background: rgb(3, 133, 219);
+}
+
+.button:active {
+  background:rgb(0, 83, 192);
+}
+
 .status {
   margin-bottom: 10px;
 }
 
 .square {
-  background: rgb(255, 255, 255);
+  background: rgb(198, 231, 253);
   border: 1px solid rgb(0, 0, 0);
   float: left;
-  font-size: 24px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 90px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
   text-align: center;
-  width: 34px;
+  width: 90px;
+}
+
+.square:hover {
+  background: rgb(3, 133, 219);
 }
 
 .square:focus {
-  outline: none;
+  background: rgb(3, 133, 219);
+}
+
+.square:active {
+  background:rgb(0, 83, 192);
 }
 
 .kbd-navigation .square:focus {
-  background: #ddd;
+  background: rgb(255, 0, 0);
 }
 
 .game {
@@ -46,5 +79,5 @@ ol, ul {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 70px;
 }
