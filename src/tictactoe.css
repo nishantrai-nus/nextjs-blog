@@ -1,0 +1,85 @@
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.button {
+  background-color: rgb(198, 231, 253);
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: list-item;
+  font-size: 20px;
+  width: 200px;
+}
+
+.button:hover {
+  background: rgb(3, 133, 219);
+}
+
+.button:focus {
+  background: rgb(3, 133, 219);
+}
+
+.button:active {
+  background:rgb(0, 83, 192);
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: rgb(198, 231, 253);
+  border: 1px solid rgb(0, 0, 0);
+  float: left;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 90px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  width: 90px;
+}
+
+.square:hover {
+  background: rgb(3, 133, 219);
+}
+
+.square:focus {
+  background: rgb(3, 133, 219);
+}
+
+.square:active {
+  background:rgb(0, 83, 192);
+}
+
+.kbd-navigation .square:focus {
+  background: rgb(255, 0, 0);
+}
+
+.game-container {
+  display: flex;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-top: 55px;
+
+}
+
+.game-info {
+  margin-left: 70px;
+  margin-top: -10px;
+  color: black;
+}

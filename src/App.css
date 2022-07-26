@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App-home {
+  align-content: start;
+}
+
+.App-bar {
+  background-color: rgb(0, 83, 192);
+  height: 100px;
+  padding: 10px;
+  color: white;
+}
+
