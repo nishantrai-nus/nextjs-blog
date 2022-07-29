@@ -6,10 +6,9 @@
   align-content: start;
 }
 
-.App-bar {
-  background-color: rgb(0, 83, 192);
-  height: 100px;
-  padding: 10px;
-  color: white;
+.game-container {
+  display: flex;
+  justify-content: center;
+  color: #faa549ff;
 }
 

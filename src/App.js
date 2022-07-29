@@ -12,8 +12,7 @@ class App extends Component {
           <div className="sidebar-container">
             <Sidebar/>
           </div>
-          <div className="App-bar">
-            <h1>Welcome!</h1>
+          <div className="game-container">
             <BrowserRouter>
               <Routes>
                 <Route path="/tictactoe" element = {<TicTacToeGame />}>
